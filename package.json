@@ -1,6 +1,6 @@
 {
   "name": "my-app",
-  "homepage": "https://MariamPhavlenishvili.github.io/my-app",
+  "homepage": "https://MariamPhavlenishvili.github.io/portfelioWebsite",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -17,15 +17,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+    "build": "react-scripts build"
   },
   "browserslist": {
     "production": [
